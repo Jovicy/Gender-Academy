@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --color: #778295;
+    --color-primary: #b4bafc;
+    --color-secondary: #717cff;
+    --section-background: #fafafa;
+    --date-background: #f0f1fe;
+    --color-light: rgba(132, 139, 200, 0.180);
+
+    --btn-box-shadow: 0px 4px 5px 1px rgba(214,218,255,0.92);
+    --card-box-shadow:  0px 4px 5px 1px rgba(245,249,254,1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.2rem;
+    user-select: none;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background-color: var(--color-white);
+    color: var(--color);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-black);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+button,
+input {
+    font-family: inherit;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0rem;
+    box-shadow: var(--card-box-shadow);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-logo a {
+    font-family: cursive;
+    color: #717cff;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-list li {
+    margin-left: 1.2rem;
+    font-size: 1.12rem;
+    font-weight: 500;
+}
+
+.nav-list li a {
+    color: var(--color-black);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    color: var(--color-secondary);
+}
+
+
+
+/* Buttons */
