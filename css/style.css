@@ -10,8 +10,8 @@
     --date-background: #f0f1fe;
     --color-light: rgba(132, 139, 200, 0.180);
 
-    --btn-box-shadow: 0px 4px 5px 1px rgba(214,218,255,0.92);
-    --card-box-shadow:  0px 4px 5px 1px rgba(245,249,254,1);
+    --btn-box-shadow: 0px 4px 5px 1px rgba(214, 218, 255, 0.92);
+    --card-box-shadow: 0px 4px 5px 1px rgba(245, 249, 254, 1);
 }
 
 * {
@@ -94,6 +94,11 @@ nav {
 .nav-list {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .nav-list li {
@@ -106,12 +111,53 @@ nav {
     color: var(--color-black);
     cursor: pointer;
     transition: color 0.3s ease;
+    text-decoration: none;
 }
 
 .nav-list li a:hover {
     color: var(--color-secondary);
 }
 
+.subnav-list {
+    display: none;
+    position: absolute;
+    background-color: var(--color-white);
+    box-shadow: var(--card-box-shadow);
+    padding: 0.5rem 0;
+    min-width: 160px;
+}
+
+.nav-list li:hover .subnav-list {
+    display: block;
+}
+
+.subnav-list li {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.subnav-list li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: var(--color-black);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.subnav-list li a:hover {
+    background-color: var(--color-secondary);
+}
+
+/* Styles for Menu Button */
+.menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: auto;
+}
 
 
 /* Buttons */

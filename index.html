@@ -14,7 +14,6 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
-    <!-- Navigation Bar -->
     <nav class="nav">
         <div class="nav-container container">
             <div class="nav-logo">
@@ -22,9 +21,17 @@
                     <p>Logo</p>
                 </a>
             </div>
-            <ul class="nav-list">
+            <button class="menu-btn" aria-label="Menu Button">&#9776;</button>
+            <ul class="nav-list" id="navList">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li class="has-submenu">
+                    <a href="#">About Us</a>
+                    <ul class="subnav-list">
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Mission & Vision</a></li>
+                        <li><a href="#">Company History</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Our Services</a></li>
                 <li><a href="#">Our Initiatives</a></li>
                 <li><a href="#">Our Program</a></li>

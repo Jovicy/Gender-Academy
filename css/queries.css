@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+        width: 100%;
+        padding-top: 1.5rem;
+    }
+
+    .nav-list.open {
+        display: flex;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-list li {
+        width: 100%;
+    }
+
+    .subnav-list {
+        width: 80%;
+    }
+
+    .has-submenu .subnav-list {
+        position: static;
+        display: none;
+    }
+
+    .has-submenu.open .subnav-list {
+        display: block;
+        position: static;
+    }
+}
