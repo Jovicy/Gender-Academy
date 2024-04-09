@@ -32,4 +32,19 @@
         display: block;
         position: static;
     }
+
+    /* header */
+    .header-content {
+        width: 100%;
+    }
+
+    .header-content h1 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        font-size: 2rem;
+    }
+
+    .header-content p {
+        font-size: 1.2rem;
+    }
 }
