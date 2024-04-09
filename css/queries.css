@@ -9,6 +9,7 @@
         align-items: flex-start;
         width: 100%;
         padding: 1rem;
+        gap: 1rem;
     }
 
     .nav-list.open {
@@ -38,9 +39,14 @@
     }
 
     /* header */
+    .header {
+        height: 70vh;
+    }
     .header-content {
         width: 100%;
         text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .header-content h1 {
@@ -49,6 +55,30 @@
     }
 
     .header-content p {
+        width: 100%;
         font-size: 1.2rem;
+    }
+
+    /* .header-btn-cont {
+        flex-direction: column;
+        width: 80%;
+        gap: 2rem;
+    } */
+
+    /* About Us */
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    .about-title h1 {
+        font-size: 2.5rem;
     }
 }
