@@ -82,6 +82,7 @@ nav {
 
 .nav-container {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -93,6 +94,8 @@ nav {
 
 .nav-list {
     display: flex;
+    align-items: center;
+    gap: 1rem;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
@@ -103,7 +106,7 @@ nav {
 
 .nav-list li {
     margin-left: 1.2rem;
-    font-size: 1.12rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -162,5 +165,37 @@ nav {
 
 
 /* Header */
+
+
+/* Google Translate Style */
+.goog-te-gadget-icon {
+    display: none;
+}
+
+
+.goog-te-gadget-simple {
+    background-color: var(--color-primary) !important;
+    border: 0 !important;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 800;
+    display: flex;
+    padding: 0.5rem !important;
+    cursor: pointer;
+}
+
+.goog-te-gadget-simple span {
+    color: var(--color-white) !important;
+    border: none;
+}
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed img {
+    display: none !important;
+}
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed span {
+    text-decoration: none !important;
+}
+
 
 /* Buttons */

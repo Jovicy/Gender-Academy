@@ -14,3 +14,9 @@ submenuItems.forEach(item => {
         item.classList.toggle('open');
     });
 });
+
+
+// google translate code
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: "en,fr,ar,es", layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
