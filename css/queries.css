@@ -59,11 +59,12 @@
         font-size: 1.2rem;
     }
 
-    /* .header-btn-cont {
-        flex-direction: column;
+    .header-btn-cont {
+        flex-wrap: wrap;
+        justify-content: center;
         width: 80%;
-        gap: 2rem;
-    } */
+        gap: 1rem;
+    }
 
     /* About Us */
     .about-container {
@@ -80,5 +81,21 @@
 
     .about-title h1 {
         font-size: 2.5rem;
+    }
+
+    /* Services */
+    .services-title p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .services-card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .services-card {
+        width: 100%;
     }
 }
