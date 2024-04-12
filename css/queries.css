@@ -42,6 +42,7 @@
     .header {
         height: 70vh;
     }
+
     .header-content {
         width: 100%;
         text-align: center;
@@ -97,5 +98,62 @@
 
     .services-card {
         width: 100%;
+    }
+
+
+    /* founder Page */
+    .founder-container {
+        flex-direction: column-reverse;
+    }
+
+    .founder-img {
+        width: 100%;
+    }
+
+    .founder-content {
+        width: 100%;
+    }
+
+    .founder-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .founder_about-briefing {
+        flex-direction: column;
+    }
+
+    .founder_about-content {
+        width: 100%;
+    }
+
+    /* footer */
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-addresses {
+        width: 100%;
+    }
+
+    .footer-navlist {
+        width: 100%;
+    }
+
+    .footer-form {
+        width: 100%;
+    }
+
+    .footer-form-cont {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-form input {
+        width: 100%;
+    }
+
+    .footer-socials {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
