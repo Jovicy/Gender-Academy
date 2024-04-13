@@ -12,6 +12,10 @@
         gap: 1rem;
     }
 
+    .nav-logo {
+        width: 100px;
+    }
+
     .nav-list.open {
         display: flex;
     }
@@ -72,6 +76,10 @@
         flex-direction: column;
     }
 
+    .about-title h1 {
+        font-size: 2.5rem;
+    }
+
     .about-img {
         width: 100%;
     }
@@ -80,11 +88,11 @@
         width: 100%;
     }
 
-    .about-title h1 {
+    /* Services */
+    .services-title h1 {
         font-size: 2.5rem;
     }
 
-    /* Services */
     .services-title p {
         width: 100%;
         text-align: center;
@@ -100,6 +108,133 @@
         width: 100%;
     }
 
+    /* events */
+    .events-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .events-content {
+        flex-direction: column;
+    }
+
+    .events-card {
+        width: 100%;
+    }
+
+    /* partners */
+    .partners-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .partners-image-container {
+        flex-direction: column;
+    }
+
+    .partners-image-container div {
+        width: 100%;
+    }
+
+    /* About Us Page */
+    .mission-container {
+        flex-direction: column-reverse;
+    }
+
+    .mission-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .mission-content {
+        width: 100%;
+    }
+
+    .mission-img {
+        width: 100%;
+    }
+
+    .vision-container {
+        flex-direction: column;
+    }
+
+    .vision-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .vision-img {
+        width: 100%;
+    }
+
+    .vision-content {
+        width: 100%;
+    }
+
+    .values-cont {
+        flex-direction: column;
+    }
+
+    .values-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .values-card {
+        width: 100%;
+    }
+
+    /* Contact Us Page */
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact-card {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .input-cont {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .input-cont input {
+        width: 100%;
+    }
+
+    .card-content {
+        flex-direction: column;
+    }
+
+    .card-briefing {
+        width: 100%;
+    }
+
+    /* Team Us Page */
+    .team-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .team-member-container {
+        flex-direction: column;
+    }
+
+    .team-member-card {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .advisory-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .gallery-title h1 {
+        font-size: 2.5rem;
+    }
 
     /* founder Page */
     .founder-container {
@@ -155,5 +290,23 @@
     .footer-socials {
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .gallery-image-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .gallery-image-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery-image-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
