@@ -182,7 +182,7 @@ nav {
     height: 90vh;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/header-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/re-bg.jpg');
     backdrop-filter: blur(20.5px);
     background-size: cover;
     background-position: top;
@@ -373,6 +373,11 @@ nav {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+}
+
+.partners-image-container div img {
+    width: 250px;
+    height: 250px;
 }
 
 /* OTHER PAGES */
@@ -885,6 +890,7 @@ nav {
 
 .founder_about {
     background-color: var(--section-background);
+    margin-top: 70px;
 }
 
 .founder_about-container {
