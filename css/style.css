@@ -700,7 +700,7 @@ nav {
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
-    width: 25%;
+    width: 30%;
 }
 
 .team-member-avatar {
@@ -729,10 +729,12 @@ nav {
 
 .team-member-title p {
     color: var(--color-secondary);
+    visibility: hidden;
 }
 
 .team-member-description {
     width: 100%;
+    visibility: hidden;
 }
 
 .team-member-socials {
