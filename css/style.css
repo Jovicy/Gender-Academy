@@ -386,7 +386,7 @@ nav {
     height: 50vh;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/about-header-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/about-bgs.jpeg');
     backdrop-filter: blur(20.5px);
     background-size: cover;
     background-position: top;
